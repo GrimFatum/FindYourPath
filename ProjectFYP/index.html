@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>НАЙДИ СВОЙ ПУТЬ!</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!--Навигационная панель-->
+      <header class="header">
+        <nav class="header__menu menu">
+          <a href="#about" class="menu__link">О нас</a>
+          <a href="#info" class="menu__link">Что узнаете?</a>
+          <a href="#articles" class="menu__link">Статьи</a>
+          <a href="#compilation" class="menu__link">Подборка статей</a>
+          <a href="#news" class="menu__link">Новости</a>
+          <a href="#contacts" class="menu__link">Контакты</a>
+        </nav>
+        <button><a href="registration.html" target="blank">ВХОД</a></button>
+      </header>
+      <!--Оболочка лэндинга-->
+      <main class="page">
+        <!--Оболочка самих слайдов (экранов)-->
+        <div class="page__wrapper">
+          <!--Экран-->
+          <div class="page__screen screen" id="about">
+            <!--Контент-->
+            <div class="screen__content">
+              <h1 class="screen__title screen__title_bg">НАЙДИ СВОЙ ПУТЬ</h1>
+              
+              <div class="screen__text">
+                Мы поможем раскрыть Ваш потенциал в учебной и внеучебной 
+                    деятельности в рамках выбранного направления подготовки
+              </div>
+              <!--Модификатор для особого форматирования-->
+            </div>
+            <!--Фон-->
+            <div class="screen__body">
+              <div class="screen__image">
+                <img src="img/mainPage.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="page__screen screen" id="info">
+            <div class="screen__content">
+              <h2 class="screen__title">Что вы здесь узнаете?</h2>
+              <div class="screen__text">
+                <h3>Информация о профессии</h3>
+                <p>
+                  <i class="fa fa-check" aria-hidden="true"></i>
+                  Подробные описания и обзоры самых популярных профессий по
+                  различным направлениям
+                </p>
+
+                <h3>Прохождения геймификационного теста</h3>
+                <p>
+                  <i class="fa fa-check" aria-hidden="true"></i>
+                  Нестандартное прохождение в виде увлекательной игры-истории
+                </p>
+
+                <h3>
+                  Построение индивидуальной профессиокарты и маршрута
+                  образования
+                </h3>
+                <p>
+                  <i class="fa fa-check" aria-hidden="true"></i>
+                  Построение рекомендованного маршрута индивидуального обучения,
+                  по результатам геймификационного теста
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="page__screen screen" id="articles">
+            <div class="screen__content">
+              <h2 class="screen__title">СТАТЬИ</h2>
+              <div class="screen__text">
+                На странице представлены научные статьи по теме
+                "Информационные технологии". 
+                Вы можете ознакомиться с размещенными и сами добавить статью в
+                данном разделе
+              </div>
+            </div>
+            <div class="screen__body">
+              <div class="screen__image">
+                <img src="img/wp.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="page__screen screen" id="compilation">
+            <div class="screen__content">
+              <h2 class="screen__title">
+                8 наиболее <br />
+                нашумевших <br />
+                программных багов
+              </h2>
+              <div class="screen__text">
+                <div class="row">
+                  <div class="col-md-6">
+                    <p>
+                      Открывает наш топ багов случай, произошедший в 1945 году с
+                      учеными Гарварда во время тестирования
+                      электромеханического компьютера. Тогда они обнаружили
+                      между двумя контактами реле застрявшего мотылька, из-за
+                      которого машина стала работать неправильно.
+                    </p>
+                    <p>
+                      Разработчики программного обеспечения в 20-м веке чаще
+                      всего обозначали год не четырьмя цифрами, а только
+                      последними двумя. Т.е. 6 марта 1995 года, например,
+                      записывалось так: "06.03.95"
+                    </p>
+                    <p>
+                      Это позволяло хранить информацию более эффективно , ведь
+                      тогда нужно было экономить каждый байт, а в БД могли
+                      храниться несколько тысяч дат. Вот почему сокращение
+                      являлось мудрым решением. Или все-таки нет?
+                    </p>
+                  </div>
+                  <div class="col-md-6">
+                    <p>
+                      Она появилась в 1990-x гг. и подразумевала следуещее:
+                      компьютеру-жертве отправлялся особенный эхо-запрос (пинг),
+                      после получения которого машина бесповоротно зависала.
+                      Многие ОС оказались подверженными этой уязвимости, в том
+                      числе Windows, Linux и др.
+                    </p>
+                    <p>
+                      Во время зарождения Amazon в заказе можно было указать
+                      отрицательное количество позиций. Тогда деньги за товар не
+                      списывались с карты клиента, а наоборот, зачислялись на
+                      нее. Это глупейшая ошибка возникла потому, что Джефф Безос
+                      - создатель магазина - пытался слишком часто выпускать
+                      обновленные версии сервися и не уделял достаточно времени
+                      отладке.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="page__screen screen" id="news">
+
+            <div class="screen__content">
+
+              <h2 class="screen__title">НОВОСТИ</h2>
+             
+              <div class="screen__text">
+                <div class="news__menu">
+                  <a href="" class="news__link">Все потоки</a>
+                  <a href="" class="news__link">Разработка</a>
+                  <a href="" class="news__link">Администрование</a>
+                  <a href="" class="news__link">Дизайн</a>
+                  <a href="" class="news__link">Научпоп</a>
+                  <a href="" class="news__link">Другое</a>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="screen__body">
+              <div class="screen__image">
+                <img src="img/news.jpg" alt="" />
+              </div>
+            </div>
+
+          </div>
+
+          <div class="page__screen screen" id="contacts">
+
+            <div class="screen__content">
+              
+              <h2 class="screen__title_ct">КОНТАКТЫ</h2>
+              <div class="screen__text">
+                <div class="mail_and_phone">
+                  <p>+1-234-567-90-90<br>ourmail@company.com</p>
+                </div>               
+                <p>Мы в социальных сетях</p>
+                <div class="contacts__link">
+                  <a href="https://vk.com/pitip_sibsiu" class="fb-ic ml-0" target="_blank"><i class="fab fa-vk white-text mr-4"></i></a>
+                  <a href="https://www.sibsiu.ru/" class="fb-ic ml-0" target="_blank"><i class="fab fa-google white-text mr-4"></i></a>
+                  <a href="https://www.youtube.com/channel/UCRmBsd_RklTjkU_JIe-eyXA" class="fb-ic ml-0" target="_blank"><i class="fab fa-youtube white-text mr-4"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Скроллинг-->
+        <div class="page__pagination"></div>
+        <div class="page__scroll"></div>
+      </main>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
